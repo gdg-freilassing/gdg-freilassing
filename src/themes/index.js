@@ -1,6 +1,6 @@
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
-import ics_theme from './ics_theme';
+import gdg_theme from './gdg_theme';
 
 const themes= [
   {
@@ -12,8 +12,8 @@ const themes= [
     source: darkBaseTheme,
   },
   {
-    id: 'ics',
-    source: ics_theme,
+    id: 'gdg',
+    source: gdg_theme,
   },
 ];
 

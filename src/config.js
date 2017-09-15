@@ -2,12 +2,12 @@ import firebase from 'firebase';
 
 const config= {
   firebase_config: {
-    apiKey: "AIzaSyBQAmNJ2DbRyw8PqdmNWlePYtMP0hUcjpY",
-    authDomain: "react-most-wanted-3b1b2.firebaseapp.com",
-    databaseURL: "https://react-most-wanted-3b1b2.firebaseio.com",
-    projectId: "react-most-wanted-3b1b2",
-    storageBucket: "react-most-wanted-3b1b2.appspot.com",
-    messagingSenderId: "258373383650"
+    apiKey: "AIzaSyAMliiBIWYHZAfI4eBm2Qaax0fKRJGPHKw",
+    authDomain: "gdg-freilassing.firebaseapp.com",
+    databaseURL: "https://gdg-freilassing.firebaseio.com",
+    projectId: "gdg-freilassing",
+    storageBucket: "gdg-freilassing.appspot.com",
+    messagingSenderId: "81922675463"
   },
   firebase_providers: [
     firebase.auth.GoogleAuthProvider,
@@ -18,7 +18,7 @@ const config= {
     firebase.auth.PhoneAuthProvider
   ],
   initial_state: {
-    theme: 'dark',
+    theme: 'gdg_theme',
     locale: 'en'
   },
   drawer_width: 256

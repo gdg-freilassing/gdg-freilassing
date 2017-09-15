@@ -135,6 +135,7 @@ const messages=defineMessages({
   select_operator: 'Operator auswählen',
   not_match_found: 'Nichst gefunden',
   edit_user: 'Benutzer bearbeiten',
+  gdg: 'GDG',
 });
 
 export default messages;

@@ -135,6 +135,7 @@ const messages=defineMessages({
   select_operator: 'Select operator',
   not_match_found: 'No match found',
   edit_user: 'Edit user',
+  gdg: 'GDG',
 
 });
 

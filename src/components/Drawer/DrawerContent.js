@@ -77,9 +77,15 @@ const DrawerContent = (props, context) => {
   const menuItems=[
     {
       value:'/dashboard',
-      visible: isAuthorised,
+      visible: true,
       primaryText: intl.formatMessage({id: 'dashboard'}),
       leftIcon: <FontIcon className="material-icons" >dashboard</FontIcon>
+    },
+    {
+      value:'/signin',
+      visible: true,
+      primaryText: intl.formatMessage({id: 'sign_in'}),
+      leftIcon: <FontIcon className="material-icons" >lock_open</FontIcon>
     },
     {
       visible: isAuthorised,
@@ -108,20 +114,8 @@ const DrawerContent = (props, context) => {
       ]
     },
     {
-      value:'/companies',
-      visible: isGranted('read_companies'),
-      primaryText: intl.formatMessage({id: 'companies'}),
-      leftIcon: <FontIcon className="material-icons" >business</FontIcon>
-    },
-    {
-      value:'/tasks',
-      visible: isAuthorised,
-      primaryText: intl.formatMessage({id: 'tasks'}),
-      leftIcon: <FontIcon className="material-icons" >list</FontIcon>
-    },
-    {
       value:'/about',
-      visible: isAuthorised,
+      visible: true,
       primaryText: intl.formatMessage({id: 'about'}),
       leftIcon: <FontIcon className="material-icons" >info_outline</FontIcon>
     },
