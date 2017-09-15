@@ -83,7 +83,7 @@ const DrawerContent = (props, context) => {
     },
     {
       value:'/signin',
-      visible: true,
+      visible: !isAuthorised,
       primaryText: intl.formatMessage({id: 'sign_in'}),
       leftIcon: <FontIcon className="material-icons" >lock_open</FontIcon>
     },
