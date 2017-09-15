@@ -18,7 +18,7 @@ const config= {
     firebase.auth.PhoneAuthProvider
   ],
   initial_state: {
-    theme: 'gdg_theme',
+    theme: 'gdg',
     locale: 'en'
   },
   drawer_width: 256

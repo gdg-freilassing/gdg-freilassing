@@ -32,7 +32,7 @@
       }
     },
     "users_count": {
-      ".read": "auth != null",
+      ".read": true,
       "$uid": {
         ".write": "auth != null && root.child('admins/'+auth.uid).exists()"
       }
@@ -95,11 +95,11 @@
       ".write": "auth != null"
     },
     "user_registrations_per_day":{
-      ".read": "auth != null",
+      ".read": true,
       ".write": false
     },
     "user_registrations_per_month":{
-      ".read": "auth != null",
+      ".read": true,
       ".write": false
     }
   }
